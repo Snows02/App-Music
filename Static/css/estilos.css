@@ -1,0 +1,89 @@
+* {box-sizing: border-box;}
+
+.padding{
+    padding: 5%;
+}
+.nopadding{
+    padding: 0;
+}
+.centerh{
+    text-align: center;
+}
+.mt{
+    margin-top: 10px;
+}
+.mt2{
+    margin-top: 55px;
+}
+.mr{
+    margin-right: 10px;
+}
+.ml{
+    margin-left: 20px;
+}
+.mb{
+    margin-bottom: 200px;
+}
+
+.wrapper > div {
+  border-radius: 5px;
+  
+  padding: 1em;
+  color: #000000;
+}.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  grid-auto-rows: minmax(150px, auto);
+}
+.one {
+    background-color: rgba(240, 231, 219, 0.5);
+    border: 2px solid rgb(233,171,88);
+    grid-column: 1 / 3;
+    grid-row: 1/ 5;
+}
+.two{
+    grid-column: 3;
+    grid-row: 1/5;
+}
+.three {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+.four{
+    background-color: rgba(102, 102, 102, 0.5);
+    grid-column: 3;
+    grid-row: 5;
+    opacity: 0.6;
+}
+
+.fontsize{
+    font-size: 11px;
+    margin-left: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: center;
+    
+}
+
+li a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fac588;
+}
+
+img.disabled{
+    pointer-events: none;
+}
