@@ -1,13 +1,13 @@
 
-// var contenido = document.querySelector('#contenido')
+var contenido = document.querySelector('#contenido')
 
-// function traer(){
-//     fetch('texto.txt')
-//     .then(data => data.text())
-//     .then(data =>{
-//         console.log(data)
-//     })
-// }
+function traer(){
+    fetch('texto.txt')
+    .then(data => data.text())
+    .then(data =>{
+        contenido.innerHTML = `${data}`
+    })
+}
 
 // var changetext = document.getElementById('contenido')
 // changetext.innerHTML = 'Perrea mami perrea'
