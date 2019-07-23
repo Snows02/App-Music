@@ -7,20 +7,29 @@
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
      <link rel="stylesheet" href="Static/css/style.css">
-    <title>Fetch</title>
+    <title>Tabla Dinámica</title>
 </head>
 <body>
 <div class="container">
     <div class="row mt center">
         <div class="col-auto">
-            <button class="btn green" onclick="show()">Mostrar dolar</button>
-            <div class="mt2" id="contenido">
-                
+            <button class="btn green" onclick="show()">Obtener</button>
+            <div class="mt2">
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Email</th>
+                            <th>Estado</th>
+                        </tr>  
+                    </thead>
+                </table>
             </div>
         </div>
     </div>
 </div>
-<script src="Static/js/fetch.js"></script>
+<script src="Static/js/table.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

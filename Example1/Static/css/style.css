@@ -5,8 +5,11 @@
     margin-top: 100px;
 }
 .mt2{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .imgcircle{
     border-radius: 150px;
+}
+.mayus{
+    text-transform: capitalize;
 }
