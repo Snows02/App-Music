@@ -1,0 +1,1 @@
+Imprimiendo txt en pantalla con AJAX

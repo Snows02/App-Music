@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+}
+.mt{
+    margin-top: 100px;
+}
+.mt2{
+    margin-top: 20px;
+}
+.imgcircle{
+    border-radius: 150px;
+}
+.radius{
+    border-radius: 30px;
+}
+.mayus{
+    text-transform: capitalize;
+}

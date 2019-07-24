@@ -1,0 +1,1 @@
+Consumiendo api de random users a través de fetch e imprimeidno en pantalla
