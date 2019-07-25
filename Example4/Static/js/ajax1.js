@@ -2,7 +2,7 @@ document.querySelector('#boton').addEventListener('click', traerDatos);
 
 function traerDatos(){
     const xhttp = new XMLHttpRequest();
-    xhttp.open('GET','archivo.txt',true);
+    xhttp.open('GET','Static/Text/archivo.txt',true);
     xhttp.send();
 
     xhttp.onreadystatechange = function(){
