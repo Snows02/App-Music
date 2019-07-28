@@ -27,11 +27,11 @@ math.divide = divide;
 
 module.exports = math;
 
-// function hello(name){
-//     console.log("Hola", name, "casi que no eres capaz de hacer esta malparida mierda");
-// }
+function hello(name){
+    console.log("Hola", name, "estas llamando otro tipo de función");
+}
 
-// math.hello = hello;
+math.hello = hello;
 
 // module.exports = math;
 // exports.add = add;
