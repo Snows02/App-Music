@@ -8,18 +8,21 @@ var ivan = {
 
 console.log(`At the beginning of the year ${ivan.name} weighed ${ivan.weight}kg`);
 
+const gainWeight = person => person.weight += 0.2
+const slimDown = person => person.weight -= 0.2
+
 for (let i = 0; i < 366; i++) {
     var random = Math.random()
 
     if (random < 0.25) {
-
+        gainWeight(ivan)
     } else if (random < 0.5) {
-
+        slimDown(ivan)
     }
 }
 
 
-console.log(`At the end of the year ${ivan.name} weighs ${ivan.weight}kg`);
+console.log(`At the end of the year ${ivan.name} weighs ${ivan.weight.toFixed(1)}kg`);
 
 function printProfession(person) {
     console.log(`${person.name} is:`)
